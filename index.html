@@ -222,5 +222,16 @@ Ou seja se eu incluir mais conteúdo neste material que já está bastante compl
 
         <p style="text-align:center; margin-top:30px;">© 2025 - Empire.AO - Todos os direitos reservados</p>
     </div>
+    <script>
+  const faqQuestions = document.querySelectorAll('.faq-question');
+
+  faqQuestions.forEach((question) => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+    });
+  });
+</script>
+
 </body>
 </html>
