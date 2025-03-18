@@ -86,6 +86,23 @@ color: #ffffff;
             border-radius: 5px;
             font-size: 1.2em;
         }
+      .pulse-button {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
         .cta-button:hover {
             background-color: #ffffff;
         }
@@ -142,7 +159,7 @@ Descubra Como Lucrar Onde Poucos estão olhando!</h2>
   <p>💰 <strong>Quem entrar agora vai sair na frente e dominar esse mercado antes da concorrência!</strong></p>
  
   </dividir> 
-        <a href="#cta" class="cta-button">Eu quero entrar antes de todos e faturar</a>
+        <a href="#cta" class="cta-button pulse-button">Eu quero entrar antes de todos e faturar</a>
 
         <h2>Passo a Passo Para Vender Infoprodutos em Angola (Mesmo Se Você Nunca Vendeu Nada Antes)</h2>
         <p>Já vi muitos "gurus brasileiros" tentando copiar fórmulas do Brasil e aplicar em Angola sem entender a realidade do mercado.</p>
@@ -175,7 +192,7 @@ Descubra Como Lucrar Onde Poucos estão olhando!</h2>
         <p>Mas você irá comprar apenas no valor de <strong>R$ 39,00</strong>.</p>
         <p>📌 Oferta válida apenas por pouco tempo.</p>
         <div style="text-align: center; margin: 30px 0;">
-  <a href="https://pay.hotmart.com/A98375360N" style="background-color: #28a745; color: white; padding: 15px 25px; text-decoration: none; font-size: 18px; border-radius: 5px;">
+  <a href="https://pay.hotmart.com/A98375360N"class="cta-button pulse-button"> style="background-color: #28a745; color: white; padding: 15px 25px; text-decoration: none; font-size: 18px; border-radius: 5px;">
     Agora está na minha mão!
   </a>
 </div>
@@ -207,7 +224,7 @@ em fazer coisas do tipo depois de ter acesso ao ebook:
   <p style="text-align: center; font-size: 16px; margin-top: 20px;">
     <strong>Lembre-se:</strong> vêm resultados para quem <strong>AGE</strong>. O conhecimento sozinho não transforma nada, mas a execução consistente transforma tudo.
   </p>
-        <a id="cta" href="https://pay.hotmart.com/A98375360N" class="cta-button">Comprar Agora por R$ 39,00</a>
+        <a id="cta" href="https://pay.hotmart.com/A98375360N" class="cta-button pulse-button">Comprar Agora por R$ 39,00</a>
 
         <div class="guarantee">
             <h3>Garantia de 7 dias</h3>
